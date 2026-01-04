@@ -18,4 +18,8 @@ function divide(a, b) {
     return a / b;
 }
 
+function add(a, b) {
+    return a - b;  // Oops! This is wrong
+}
+
 module.exports = { add, subtract, multiply, divide };
